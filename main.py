@@ -3,7 +3,7 @@ import httpx, random, itertools, ctypes, re, json, os, ssl, datetime, sys, threa
 __config__     = json.load(open('./config.json'))
 __proxies__    = open('data/Proxies.txt', 'r').readlines()
 __cookies__    = itertools.cycle(open('data/cookies.txt', 'r').readlines())
-__base_headers__ = {'Accept': '*/*', 'Accept-encoding': 'gzip, deflate, br','Accept-language': 'en-US,en;q=0.9','Pragma': 'no-cache','Origin': 'https://www.instagram.com','Referer': 'https://www.instagram.com/','Sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"','Sec-ch-ua-mobile': '?0','Sec-ch-ua-platform': '"Windows"','Sec-fetch-dest': 'empty','Sec-fetch-mode': 'cors','Sec-fetch-site': 'same-site','user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'}
+__base_headers__ = {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Accept-encoding': 'gzip, deflate, br','Accept-language': 'en-US,en;q=0.9','Pragma': 'no-cache','Origin': 'https://www.instagram.com','Referer': 'https://www.instagram.com/','Sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"','Sec-ch-ua-mobile': '?0','Sec-ch-ua-platform': '"Windows"','Sec-fetch-dest': 'empty','Sec-fetch-mode': 'cors','Sec-fetch-site': 'same-site','user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'}
 __ciphers__ = 'ECDH+AESGCM:ECDH+CHACHA20:DH+AESGCM:DH+CHACHA20:ECDH+AES256:DH+AES256:ECDH+AES128:DH+AES:ECDH+HIGH:DH+HIGH:RSA+AESGCM:RSA+AES:RSA+HIGH:!aNULL:!eNULL:!MD5:!3DES'
 
 __SSLcontext__ = ssl.SSLContext(protocol=ssl.PROTOCOL_TLS)
