@@ -21,6 +21,7 @@ Manage your instagram accounts effortlessely with Gramify and without the risk o
 
 # Future
 * Add account cookie converter. Retrieve the account cookie from an that is in username:password format
+* Add Option to Mass dm
 * Add more features for better account management.
 
 
