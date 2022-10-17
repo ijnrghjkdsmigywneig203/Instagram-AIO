@@ -338,21 +338,3 @@ if __name__ == "__main__":
         Instagram().main()
     except KeyboardInterrupt:
         sys.exit(0)
-
-    
-
-    
-
-    
-
-
-
-
-
-
-
-    
-    
-
-    
-
