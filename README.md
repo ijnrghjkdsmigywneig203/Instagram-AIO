@@ -9,7 +9,7 @@ Manage your instagram accounts effortlessely with Gramify and without the risk o
 
 # Features
 * Proxy Support
-* Undetected by Instagram 
+* Undetected by Instagram
 * Bypassing Instagram "Security"
 * Multiple Functions
 * Multiple Accounts Support
