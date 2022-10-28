@@ -27,7 +27,7 @@ Manage your instagram accounts effortlessely with Gramify and without the risk o
 
 
 # Custom Work
-* I do custom work - Custom tools/Software | Contact me on Discord or Telegram
+* I do paid commissions - Custom tools/Software | Contact me on Discord or Telegram.
 
 # Contact
 * Telegram: @lilclip
