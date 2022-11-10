@@ -1,5 +1,5 @@
 # Instagram-AIO
-Manage your instagram accounts effortlessely with Gramify and without the risk of your accounts being banned.
+Manage your instagram accounts effortlessely with Gramify and without the risk of your accounts being banned
 
 # How to use
 * Install python from https://python.org and add it to path
